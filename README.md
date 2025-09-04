@@ -1,6 +1,6 @@
 # 📁 Portfólio de Marketing Digital
 
-![Capa do Portfólio - Adicione uma imagem ou GIF aqui](https://via.placeholder.com/1200x400.png?text=Seu+Banner+aqui)
+![Capa do Portfólio - Adicione uma imagem ou GIF aqui](https://github.com/Reinaldo-Fernandes/portifolio-marketing/blob/d3b784103a0edd3d3c417bb788182e3a656b633f/src/img/portifolio.png)
 
 Este é um portfólio pessoal construído com **HTML, CSS e JavaScript** para apresentar meus projetos, habilidades e experiências na área de marketing digital. O objetivo é fornecer uma visão clara e objetiva do meu trabalho, servindo como uma porta de entrada para futuras colaborações.
 
