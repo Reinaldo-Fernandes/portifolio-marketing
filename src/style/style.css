@@ -88,15 +88,14 @@ nav ul li a:hover {
 }
 
 /* Seção de Destaque (Hero) */
- #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/Reinaldo-Fernandes/portifolio-marketing/main/src/img/hero-bg.jpg') no-repeat center center/cover;
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/img/hero-bg.jpg') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     text-align: center;
-
 }
 
 .hero-content h1 {
@@ -340,6 +339,7 @@ footer {
     }
 
 }
+
 
 
 
