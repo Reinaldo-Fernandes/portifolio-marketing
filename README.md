@@ -28,3 +28,4 @@ As seguintes tecnologias foram usadas na construção deste projeto:
 ---
 
 ### 💻 **Como Visualizar o Portfólio**
+(https://reinaldo-fernandes.github.io/portifolio-marketing/)
