@@ -88,14 +88,44 @@ nav ul li a:hover {
 }
 
 /* Seção de Destaque (Hero) */
+/* Seção de Destaque (Hero) */
 #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../src/img/gestao-midia.png") no-repeat center center/cover;
+    /* Remova a propriedade background */
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     text-align: center;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.hero-background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+/* Adiciona a sobreposição escura */
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 2; 
+}
+
+.hero-content {
+    position: relative;
+    z-index: 3; 
 }
 
 .hero-content h1 {
@@ -339,13 +369,3 @@ footer {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
