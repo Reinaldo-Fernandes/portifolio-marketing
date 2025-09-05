@@ -89,7 +89,7 @@ nav ul li a:hover {
 
 /* Seção de Destaque (Hero) */
 #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/img/hero.webp') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/img/hero-bg.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -339,6 +339,7 @@ footer {
     }
 
 }
+
 
 
 
