@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Campanha de Lançamento de Produto",
             description: "Criação de estratégia de marketing 360°, incluindo mídias sociais, e-mail marketing e anúncios pagos.",
-            image: "src/img/lancamento.png",
+            image: "src/img/Lancamento.png",
             link: "#" // Link para o estudo de caso ou detalhes do projeto
         },
         {
@@ -71,3 +71,4 @@ document.addEventListener('DOMContentLoaded', () => {
         contactForm.reset();
     });
 });
+
